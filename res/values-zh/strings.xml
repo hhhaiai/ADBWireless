@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">无线adb</string>
+    <string name="top_text">欢迎使用无线adb, 点击大按钮, 启用和停用无线adb.</string>
+    <string name="footer_text_1">无线adb已启用, 在已安装Android SDK 的电脑上运行:</string>
+    <string name="footer_text_2" />
+    <string name="footer_text_3">USB连接后可以使用ADB</string>
+    <string name="footer_text_off">无线ADB已关闭</string>
+    <string name="button_close">关闭</string>
+    <string name="button_exit">退出</string>
+    <string name="button_continue">继续</string>
+    <string name="button_activate_wifi">启用WIFI</string>
+    <string name="no_root_title">未ROOT!</string>
+    <string name="no_root">奥闹! 内核不好使，你需要ROOT.</string>
+    <string name="no_wifi_title">未检测到无线网络!</string>
+    <string name="no_wifi">奥闹! 你需要先打开WIFI.</string>
+    <string name="menu_prefs">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_exit">退出</string>
+    <string name="about">"无线adb可以让你像连接USB的时候使用adb一样方便.
+开发： MrSiir (mrsiir@gmail.com)
+汉化： sanbo(sanbo.xyz@gmail.com)
+源码: https://github.com/hhhaiai/adbwireless"</string>
+    <string name="noti_text">连接到</string>
+    <string name="noti_title">USB调试已连接</string>
+    <string name="settings_title">选项</string>
+    <string name="turning_on_wifi">正在打开WIFI</string>
+    <string name="turning_off_wifi">正在关闭WIFI</string>
+    <string name="connect_sample">adb connect 192.168.1.106</string>
+    <string name="exit_info">请使用菜单中的退出功能关闭本应用. 按房子键则可以继续后台使用.</string>
+
+    <!-- Settings -->
+    <string name="onboot">开机自启</string>
+    <string name="server_onboot">手机开机时自动启动</string>
+    <string name="vibrate">震动</string>
+    <string name="server_vibrate">建立连接时</string>
+    <string name="sound">声音</string>
+    <string name="server_sound">建立连接时</string>
+    <string name="notification">通知</string>
+    <!-- Defaults -->
+    <string name="default_vibrate">true</string>
+    <string name="server_noti">建立连接时</string>
+    <string name="haptic">震动反馈</string>
+    <string name="server_haptic">点击按钮时</string>
+    <string name="wifi_on">自动打开WIFI</string>
+    <string name="server_wifi_on">启动程序时自动打开wifi</string>
+    <string name="wifi_off">自动关闭WIFI</string>
+    <string name="server_wifi_off">如果程序启动时WIFI已关闭，则退出程序时自动关闭WIFI</string>
+    <string name="widget_start">"无线adb已开启!
+连接到"</string>
+    <string name="autcon_incomplete">请检查和确认IP和端口</string>
+
+    <!-- Start 1.5.3 -->
+    <string name="settings_title_autcon">自动连接</string>
+    <string name="settings_title_wifi">WiFi</string>
+    <string name="autocon">自动连接</string>
+    <string name="server_autocon">打开adb时自动连接到电脑</string>
+    <string name="autoconip">电脑IP</string>
+    <string name="server_autoconip">电脑的IP地址</string>
+    <string name="autoconport">电脑端口</string>
+    <string name="server_autoconport">默认端口为8555</string>
+    <!-- End 1.5.3 -->
+    
+    <!-- Start 1.5.4 -->
+    <string name="server_screenon">屏幕不休眠</string>
+    <string name="pref_screenon_key">屏幕不休眠</string>
+    <!-- End 1.5.4 -->
+
+</resources>

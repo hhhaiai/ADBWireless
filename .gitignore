@@ -1,0 +1,13 @@
+bin/
+gen/
+obj/
+build/
+repos/
+.gradle/
+.settings/
+lint.xml
+.classpath
+.project
+.swp
+project.properties
+assets/
